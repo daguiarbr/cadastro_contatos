@@ -1,7 +1,7 @@
 cadastro_contatos
 =================
 
-Cadastro de contatos simples, usando APS.NET MVC, C#, SQL Server
+Cadastro de contatos simples, usando ASP.NET MVC, C#, SQL Server
 
 Executar os scripts de criação do banco de dados na seguinte ordem:
 
