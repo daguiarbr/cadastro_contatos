@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Tecnologia Única - Serviços de Informática</title>
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</head>
+<body>
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">
+                    <img src="@Url.Content("~/images/contacts.png")" alt="Logo" />
+                </p>
+            </div>
+            <div class="float-right">
+                <nav>
+                    <ul id="menu">
+                        <li>@Html.ActionLink("Listagem", "Index", "Contact")</li>
+                        <li>@Html.ActionLink("Cadastrar Novo", "Create", "Contact")</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="body">
+        @RenderSection("featured", required: false)
+        <section class="content-wrapper main-content clear-fix">
+            @if (TempData["msg"] != null)
+            {
+                <div class="notification success">
+                    @(TempData["msg"])
+                </div>                        
+            }
+            @RenderBody()
+        </section>
+    </div>
+    <footer>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p>&copy; @DateTime.Now.Year - Douglas Golino Aguiar</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Cadastro de Contatos";
+}
+
+<h2>@ViewBag.Message</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    @Html.Partial("_form")
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/custom")
+}

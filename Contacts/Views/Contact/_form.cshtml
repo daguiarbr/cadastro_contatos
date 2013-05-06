@@ -1,0 +1,90 @@
+﻿@model Contacts.Entities.Contact
+
+@if (Model != null)
+{
+    @Html.HiddenFor(model => model.Id)
+    @Html.HiddenFor(model => model.CreateDate)
+}
+
+<fieldset>
+    <legend>@ViewBag.Message</legend>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.Name)
+    </div>
+    <div class="editor-field">
+        @Html.TextBox("Name", (Model != null) ? Model.Name : string.Empty, new { maxlength = "80", size = "40" })
+        @Html.ValidationMessageFor(model => model.Name)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.Email)
+    </div>
+    <div class="editor-field">
+        @Html.TextBox("Email", (Model != null) ? Model.Email : string.Empty, new { maxlength = "80", size = "40" })
+        @Html.ValidationMessageFor(model => model.Email)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.PhoneNumber)
+    </div>
+    <div class="editor-field">
+        @Html.TextBox("Ddd", (Model != null) ? Model.Ddd : string.Empty, new { maxlength = "2", size = "1" })
+        @Html.TextBox("PhoneNumber", null, (Model != null) ? Model.PhoneNumber : string.Empty, new { maxlength = "9", size = "10" })
+        @Html.ValidationMessageFor(model => model.Ddd)
+        @Html.ValidationMessageFor(model => model.PhoneNumber)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.ZipCode)
+    </div>
+    <div class="editor-field">
+        @Html.TextBox("ZipCode", (Model != null) ? Model.ZipCode : string.Empty, new { maxlength = "9", size = "9" })
+        <button type="button" id="findZipCode">Buscar</button>
+        @Html.ValidationMessageFor(model => model.ZipCode)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.Address)
+    </div>
+    <div class="editor-field">
+        @Html.TextBox("Address", (Model != null) ? Model.Address : string.Empty, new { maxlength = "80", size = "40" })
+        @Html.ValidationMessageFor(model => model.Address)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.Number)
+    </div>
+    <div class="editor-field">
+        @Html.TextBox("Number", (Model != null) ? Model.Number : string.Empty, new { maxlength = "4", size = "4" })
+        @Html.ValidationMessageFor(model => model.Number)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.Neighborhood)
+    </div>
+    <div class="editor-field">
+        @Html.TextBox("Neighborhood", (Model != null) ? Model.Neighborhood : string.Empty, new { maxlength = "25", size = "20" })
+        @Html.ValidationMessageFor(model => model.Neighborhood)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.City)
+    </div>
+    <div class="editor-field">
+        @Html.TextBox("City", (Model != null) ? Model.City : string.Empty, new { maxlength = "25", size = "20" })
+        @Html.ValidationMessageFor(model => model.City)
+    </div>
+
+    <div class="editor-label">
+        @Html.LabelFor(model => model.State)
+    </div>
+    <div class="editor-field">
+        @Html.TextBox("State", null, (Model != null) ? Model.State : string.Empty, new { maxlength = "2", size = "2" })
+        @Html.ValidationMessageFor(model => model.State)
+    </div>
+</fieldset>
+<p style="margin-top: 30px;">
+    <input type="submit" value="Gravar" />
+    @Html.ActionLink("Voltar p/ listagem", "Index")
+</p>

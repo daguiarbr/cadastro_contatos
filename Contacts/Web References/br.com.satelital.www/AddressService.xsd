@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tecnologiaunica.com.br/addressservice" elementFormDefault="qualified" targetNamespace="http://tecnologiaunica.com.br/addressservice" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="https://www.satelital.com.br/addressservice/AddressService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:import schemaLocation="https://www.satelital.com.br/addressservice/AddressService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/TecUnica.AddressService.Model" />
+  <xs:element name="GetAddress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/" minOccurs="0" name="applicationId" type="q1:guid" />
+        <xs:element minOccurs="0" name="country" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="postalCode" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAddressResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/TecUnica.AddressService.Model" minOccurs="0" name="GetAddressResult" nillable="true" type="q2:Address" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

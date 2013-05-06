@@ -1,0 +1,98 @@
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\Contacts.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\Contacts.pdb
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\Antlr3.Runtime.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\DotNetOpenAuth.Core.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\EntityFramework.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\Newtonsoft.Json.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\System.Net.Http.Formatting.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\System.Web.Helpers.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\System.Web.Http.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\System.Web.Http.WebHost.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\System.Web.Mvc.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\System.Web.Optimization.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\System.Web.Razor.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\System.Web.WebPages.Deployment.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\System.Web.WebPages.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\System.Web.WebPages.Razor.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\WebGrease.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\WebMatrix.Data.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\WebMatrix.WebData.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\EntityFramework.xml
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\Newtonsoft.Json.xml
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\System.Net.Http.Formatting.xml
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\System.Web.Helpers.xml
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\System.Web.Http.xml
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\System.Web.Http.WebHost.xml
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\System.Web.Mvc.xml
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\System.Web.Razor.xml
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\System.Web.WebPages.xml
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\System.Web.WebPages.Deployment.xml
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\System.Web.WebPages.Razor.xml
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\WebMatrix.Data.xml
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\WebMatrix.WebData.xml
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\DotNetOpenAuth.Core.xml
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\obj\Debug\Contacts.dll
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\obj\Debug\Contacts.pdb
+C:\Users\douglas\Documents\Visual Studio 2012\Projects\TFS\Contacts\Contacts\obj\Debug\Contacts.csprojResolveAssemblyReference.cache
+C:\douglas\PROJETOS\Contacts\Contacts\bin\Contacts.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\Contacts.pdb
+C:\douglas\PROJETOS\Contacts\Contacts\bin\Antlr3.Runtime.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\DotNetOpenAuth.AspNet.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\DotNetOpenAuth.Core.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\DotNetOpenAuth.OAuth.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\DotNetOpenAuth.OpenId.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\EntityFramework.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\Microsoft.Web.Infrastructure.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\Newtonsoft.Json.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\System.Net.Http.Formatting.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\System.Web.Helpers.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\System.Web.Http.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\System.Web.Http.WebHost.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\System.Web.Mvc.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\System.Web.Optimization.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\System.Web.Razor.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\System.Web.WebPages.Deployment.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\System.Web.WebPages.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\System.Web.WebPages.Razor.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\WebGrease.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\WebMatrix.Data.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\WebMatrix.WebData.dll
+C:\douglas\PROJETOS\Contacts\Contacts\bin\EntityFramework.xml
+C:\douglas\PROJETOS\Contacts\Contacts\bin\Newtonsoft.Json.xml
+C:\douglas\PROJETOS\Contacts\Contacts\bin\System.Net.Http.Formatting.xml
+C:\douglas\PROJETOS\Contacts\Contacts\bin\System.Web.Helpers.xml
+C:\douglas\PROJETOS\Contacts\Contacts\bin\System.Web.Http.xml
+C:\douglas\PROJETOS\Contacts\Contacts\bin\System.Web.Http.WebHost.xml
+C:\douglas\PROJETOS\Contacts\Contacts\bin\System.Web.Mvc.xml
+C:\douglas\PROJETOS\Contacts\Contacts\bin\System.Web.Razor.xml
+C:\douglas\PROJETOS\Contacts\Contacts\bin\System.Web.WebPages.xml
+C:\douglas\PROJETOS\Contacts\Contacts\bin\System.Web.WebPages.Deployment.xml
+C:\douglas\PROJETOS\Contacts\Contacts\bin\System.Web.WebPages.Razor.xml
+C:\douglas\PROJETOS\Contacts\Contacts\bin\WebMatrix.Data.xml
+C:\douglas\PROJETOS\Contacts\Contacts\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\douglas\PROJETOS\Contacts\Contacts\bin\WebMatrix.WebData.xml
+C:\douglas\PROJETOS\Contacts\Contacts\bin\DotNetOpenAuth.AspNet.xml
+C:\douglas\PROJETOS\Contacts\Contacts\bin\DotNetOpenAuth.Core.xml
+C:\douglas\PROJETOS\Contacts\Contacts\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\douglas\PROJETOS\Contacts\Contacts\bin\DotNetOpenAuth.OAuth.xml
+C:\douglas\PROJETOS\Contacts\Contacts\bin\DotNetOpenAuth.OpenId.xml
+C:\douglas\PROJETOS\Contacts\Contacts\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\douglas\PROJETOS\Contacts\Contacts\obj\Debug\Contacts.dll
+C:\douglas\PROJETOS\Contacts\Contacts\obj\Debug\Contacts.pdb
+C:\douglas\PROJETOS\Contacts\Contacts\obj\Debug\Contacts.csprojResolveAssemblyReference.cache

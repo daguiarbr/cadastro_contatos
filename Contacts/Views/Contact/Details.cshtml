@@ -1,0 +1,55 @@
+﻿@model Contacts.Entities.Contact
+
+@{
+    ViewBag.Title = "Detalhes do Contato";
+}
+
+<h2>@ViewBag.Message</h2>
+
+<fieldset>
+    <legend>@ViewBag.Message</legend>
+
+    <p class="display-field">
+        <span>Nome:</span>
+        @Html.DisplayFor(model => model.Name)
+    </p>
+
+    <p class="display-field">
+        <span>Email:</span>
+        @Html.DisplayFor(model => model.Email)
+    </p>
+
+    <p class="display-field">
+        <span>Telefone:</span>
+        @Html.DisplayFor(model => model.DddPhoneNumber)
+    </p>
+
+    <p class="display-field">
+        <span>Endereço:</span>
+        @Html.DisplayFor(model => model.AddressNumber)
+    </p>
+
+    <p class="display-field">
+        <span>Bairro:</span>
+        @Html.DisplayFor(model => model.Neighborhood)
+    </p>
+
+    <p class="display-field">
+        <span>Cep:</span>
+        @Html.DisplayFor(model => model.ZipCode)
+    </p>
+
+    <p class="display-field">
+        <span>Cidade:</span>
+        @Html.DisplayFor(model => model.CityState)
+    </p>
+
+    <p class="display-field">
+        <span>Data Criação:</span>
+        @Html.DisplayFor(model => model.CreateDate)
+    </p>
+</fieldset>
+<p style="margin-top: 30px;">
+    <button type="button" id="findZipCode" onclick="location.href='/Contact/Edit/@(Model.Id)'">Editar</button>
+    @Html.ActionLink("Voltar p/ listagem", "Index")
+</p>

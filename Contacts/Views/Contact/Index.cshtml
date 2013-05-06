@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Contacts.Entities.Contact>
+
+@{
+    ViewBag.Title = "Listagem de Contatos";
+}
+
+<h2>@ViewBag.Message</h2>
+
+<div class="bulk-actions">
+    @using (Html.BeginForm("Index", "Contact", FormMethod.Get))
+    {
+        <p>
+            <span>@Html.LabelFor(model => model.First().Id, "Código") @Html.TextBox("Id", null, new { size = "5" })</span>
+            <span>@Html.LabelFor(model => model.First().Name) @Html.TextBox("Name", null, new { maxlength = "80", size = "40" })</span>
+            <span>@Html.LabelFor(model => model.First().Email) @Html.TextBox("Email", null, new { maxlength = "80", size = "40" })</span>
+            <span>
+                <input type="submit" value="Busca" class="button" /></span>
+            <span>
+                <input type="button" value="Limpar" onclick="location.href = '../Contact/Index'" class="button" /></span>
+        </p>
+    }
+</div>
+<div class="clear"></div>
+<div id="content-list">
+@{
+    var grid = new WebGrid(Model,
+    defaultSort: "ID",
+    rowsPerPage: 20,
+    selectionFieldName: "SelectedField");
+}
+@grid.GetHtml(
+tableStyle: "Grid",
+headerStyle: "head",
+alternatingRowStyle: "alt",
+columns: grid.Columns(
+new WebGridColumn() { ColumnName = "Id", CanSort = true, Header = "Cód" },
+new WebGridColumn() { ColumnName = "Name", CanSort = true, Header = "Nome" },
+new WebGridColumn() { ColumnName = "Email", CanSort = true, Header = "Email" },
+new WebGridColumn() { ColumnName = "DddPhoneNumber", CanSort = true, Header = "Telefone" },
+new WebGridColumn() { ColumnName = "AddressNumber", CanSort = true, Header = "Endereço" },
+new WebGridColumn() { ColumnName = "Neighborhood", CanSort = true, Header = "Bairro" },
+new WebGridColumn() { ColumnName = "CityState", CanSort = true, Header = "Cidade" },
+new WebGridColumn()
+{
+    ColumnName = string.Empty,
+    CanSort = false,
+    Header = "",
+    Format =
+    @<text>
+<a href="/Contact/Details/@item.Id">
+    <img src="@Url.Content("~/images/details.png")" alt="Detalhes" title="Detalhes" /></a>
+<a href="/Contact/Edit/@item.Id">
+    <img src="@Url.Content("~/images/pencil.png")" alt="Editar" title="Editar"/></a>
+<a href="/Contact/Delete/@item.Id">
+    <img src="@Url.Content("~/images/cross.png")" alt="Excluir" title="Excluir"/></a>
+</text>
+}
+)
+)
+</div>
