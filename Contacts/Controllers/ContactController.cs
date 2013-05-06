@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Data;
 using System.Linq;
 using System.Web.Mvc;
@@ -11,7 +11,7 @@ namespace Contacts.Controllers
 {
     public class ContactController : Controller
     {
-        private DataContext db = new DataContext();
+        private readonly DataContext _db = new DataContext();
 
         //
         // GET: /Contact/
@@ -19,7 +19,7 @@ namespace Contacts.Controllers
         public ActionResult Index(DTOSearchContact model)
         {
             ModelState.Remove("Id");
-            var contacts = db.Contacts.ToList();
+            var contacts = _db.Contacts.ToList();
 
             if (model.Id > 0)
             {
@@ -48,7 +48,7 @@ namespace Contacts.Controllers
 
         public ActionResult Details(int id = 0)
         {
-            Contact contact = db.Contacts.Find(id);
+            Contact contact = _db.Contacts.Find(id);
             if (contact == null)
             {
                 return HttpNotFound();
@@ -77,8 +77,8 @@ namespace Contacts.Controllers
             {
                 contact.CreateDate = DateTime.Now;
                 contact.State = contact.State.ToUpper();
-                db.Contacts.Add(contact);
-                db.SaveChanges();
+                _db.Contacts.Add(contact);
+                _db.SaveChanges();
                 TempData["msg"] = "Registro inserido com sucesso.";
                 return RedirectToAction("Index");
             }
@@ -92,7 +92,7 @@ namespace Contacts.Controllers
 
         public ActionResult Edit(int id = 0)
         {
-            Contact contact = db.Contacts.Find(id);
+            Contact contact = _db.Contacts.Find(id);
             if (contact == null)
             {
                 return HttpNotFound();
@@ -111,8 +111,8 @@ namespace Contacts.Controllers
             if (ModelState.IsValid)
             {
                 contact.State = contact.State.ToUpper();
-                db.Entry(contact).State = EntityState.Modified;
-                db.SaveChanges();
+                _db.Entry(contact).State = EntityState.Modified;
+                _db.SaveChanges();
                 TempData["msg"] = "Registro editado com sucesso.";
                 return RedirectToAction("Index");
             }
@@ -126,7 +126,7 @@ namespace Contacts.Controllers
 
         public ActionResult Delete(int id = 0)
         {
-            Contact contact = db.Contacts.Find(id);
+            Contact contact = _db.Contacts.Find(id);
             if (contact == null)
             {
                 return HttpNotFound();
@@ -142,9 +142,9 @@ namespace Contacts.Controllers
         [HttpPost, ActionName("Delete")]
         public ActionResult DeleteConfirmed(int id)
         {
-            Contact contact = db.Contacts.Find(id);
-            db.Contacts.Remove(contact);
-            db.SaveChanges();
+            Contact contact = _db.Contacts.Find(id);
+            _db.Contacts.Remove(contact);
+            _db.SaveChanges();
             TempData["msg"] = "Registro exluído com sucesso.";
             return RedirectToAction("Index");
         }
@@ -152,18 +152,18 @@ namespace Contacts.Controllers
         //
         // Get: /Contact/GetBreeds?ZipCode = ?
 
-        public JsonResult GetAddress(string ZipCode)
+        public JsonResult GetAddress(string zipCode)
         {
-            int ZipCodeTmp = Convert.ToInt32(ZipCode.Replace("-", ""));
-            db.Configuration.ProxyCreationEnabled = false;
-            AddressService Obj = new AddressService();
-            var result = Obj.GetAddress("3713F255-4568-4DF9-B55B-6B17DC084A0E", "brasil", ZipCodeTmp, true);
+            var zipCodeTmp = Convert.ToInt32(zipCode.Replace("-", ""));
+            _db.Configuration.ProxyCreationEnabled = false;
+            var obj = new AddressService();
+            var result = obj.GetAddress("3713F255-4568-4DF9-B55B-6B17DC084A0E", "brasil", zipCodeTmp, true);
             return Json(result, JsonRequestBehavior.AllowGet);
         }
 
         protected override void Dispose(bool disposing)
         {
-            db.Dispose();
+            _db.Dispose();
             base.Dispose(disposing);
         }
     }
